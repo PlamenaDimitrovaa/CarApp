@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/editTextMaintenanceDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата на поддръжка (dd/MM/yyyy)"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/editTextMaintenanceType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Тип"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextMaintenanceDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Описание"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/editTextMaintenanceCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Цена"
+        android:inputType="numberDecimal"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxMaintenanceCompleted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Завършена"/>
+
+    <Button
+        android:id="@+id/saveMaintenanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Запази" />
+</LinearLayout>
